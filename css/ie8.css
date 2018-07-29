@@ -1,0 +1,73 @@
+.ba-pricing {
+	font-size: 0;
+}
+
+.ba-pricing__col {
+	display: inline-block;
+	width: 31%;
+	font-size: 16px;
+}
+
+.ba-pricing__col--center {
+	width: 34%;
+	vertical-align: middle;
+}
+
+.ba-pricing__col--ms {
+	vertical-align: middle;
+}
+
+.ba-price__rate:before {
+	content: "$";
+	font-size: 24px;
+	position: absolute;
+	top: 8px;
+	left: 0;
+}
+
+.ba-price__rate:after {
+	content: "/ HR";
+	font-size: 16px;
+}
+
+.ba-price__body:after {
+	content: "";
+	width: 140%;
+	height: 418px;
+	background: #fff;
+	border-radius: 50% 50% 0 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.ba-price__body:before {
+	font-family: themify;
+	font-size: 30px;
+	color: #181818;
+	position: absolute;
+	top: 35px;
+	left: 45%;
+	z-index: 1;
+}
+
+.ba-price__body--pic-1:before {
+	content: "\e6e0";
+}
+
+.ba-price__body--pic-2:before {
+	content: "\e61f";
+}
+
+.ba-price__body--pic-3:before {
+	content: "\e69a";
+}
+
+.ba-button {
+	left: 19.5%;
+}
+
+.ba-button--center {
+	left: 22%;
+}
+
